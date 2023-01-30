@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(158deg, #e660e6e6, #f4506e6f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart{
+    color: red;
+}
+.div1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.parag1{
+    font-family: 'amatic SC',cursive;
+    margin-top: 1px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center ;
+    color: rgba(215, 55, 23, 0.897);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 0 8px 32px 0 rgb(230, 117, 117);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 100px;
+    width: 50%;
+    height: 45px;
+
+}
+.mostrador1{
+    border: 2px solid rgba(244, 83, 83, 0.604);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 2px 8px 70px 2px rgb(230, 117, 117);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 450px;
+    gap: 40px;
+    margin-top: 30px;
+    font-size: 70px;
+    font-family: Jazz LET, fantasy;
+    color: rgba(249, 37, 4, 0.46);
+}
+.parag2{
+    font-family: 'amatic SC',cursive;
+    color: rgba(215, 55, 23, 0.897);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 0 8px 32px 0 rgb(230, 117, 117);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 100px;
+    justify-content: center;
+    margin-top: 45px;
+    width: 78%;
+    height: 45px;
+}
+.mostrador2{
+    font-family: Jazz LET, fantasy;
+    border: 2px solid rgba(244, 83, 83, 0.604);
+    background: rgba(255, 255, 255, 0.202);
+    box-shadow: 2px 8px 70px 2px rgb(230, 117, 117);
+    backdrop-filter: blur( 13.5px );
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 450px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color:rgba(249, 37, 4, 0.46);
+}
+.text{
+    font-size: 55px;
+}
+.text2{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
