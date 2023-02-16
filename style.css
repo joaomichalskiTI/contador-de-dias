@@ -59,6 +59,7 @@ body{
     box-shadow: 0 8px 32px 0 rgb(230, 117, 117);
     backdrop-filter: blur( 13.5px );
     border-radius: 100px;
+    display: flex;
     justify-content: center;
     margin-top: 45px;
     width: 78%;
